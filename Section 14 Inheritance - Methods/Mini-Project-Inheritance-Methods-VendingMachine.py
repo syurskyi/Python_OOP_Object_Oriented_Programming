@@ -120,12 +120,14 @@ class VendingMachine:
             
  
 class HospitalVendingMachine(VendingMachine):
+    pass
  
     # Complete the class
  
         
  
 class SchoolVendingMachine(VendingMachine):
+    pass
  
     # Complete the class
  
