@@ -1,5 +1,5 @@
-class Donut
-        def _ini__(flavor, toppings, filling, size):
+class Donut:
+        def __init__(self, flavor, toppings, filling, size):
                 self.flavor = flavor
                 self.toppings = toppings
                 self.filling = filling
@@ -7,14 +7,14 @@ class Donut
 
 class Customer:
 
-	def _init_(self, name, age address, favorite_dessert)
+	def __init__(self, name, age, address, favorite_dessert):
 		self.name = name
 		self.age = age
 		self.address = address
 		favorite_dessert = self.favorite_dessert
 
-Cake:
-	__init__(self, flavor, price, quality):
+class Cake:
+	def __init__(self, flavor, price, quality):
 		self.flavor = flavor
 		self.price = price
 		self.quality = quality
